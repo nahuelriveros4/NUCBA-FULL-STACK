@@ -1,0 +1,14 @@
+p {
+  background-color: green;
+  display: inline; /*Ocupa solo el tamañano del texto*/
+}
+
+#P2 {
+  background-color: crimson;
+  display: block;
+}
+
+.P3{
+  background-color: blanchedalmond;
+  display: block;
+}

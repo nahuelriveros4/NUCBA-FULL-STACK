@@ -1,0 +1,20 @@
+body{
+  background-color: #131415;
+  font-family: sans-serif;
+}
+
+h1{
+  color: green;
+}
+
+#titulo{
+  color: yellow;
+}
+
+.tituloH2{
+  color: crimson;
+}
+
+#tituloH2{
+  color: yellow;
+}
