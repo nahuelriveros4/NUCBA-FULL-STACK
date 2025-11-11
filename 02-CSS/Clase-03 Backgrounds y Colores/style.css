@@ -1,0 +1,48 @@
+.caja{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #6b7280;
+}
+
+/* fondo de color */
+.bg-color{
+  background-color: crimson;
+}
+
+/* fondo con imagen */
+.bg-img{
+  background-image: url('./img/bg-pattern.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+/*repeat*/
+.bg-repeat {
+  background-image: url('./img/bg-repeat.png');
+  background-repeat: repeat;
+}
+
+
+.bg-attach{
+  background-image: url('./img/bg-pattern.jpg');
+  background-attachment: fixed;
+}
+
+.bg-position{
+  background-image: url('./img/bg-pattern.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-size{
+  background: url('./img/messi.webp') center/cover;
+  /* background-image: url('./img/messi.webp');
+  background-size: cover;
+  background-position: center; */
+}
+
+.color p{
+  color: crimson;
+}
