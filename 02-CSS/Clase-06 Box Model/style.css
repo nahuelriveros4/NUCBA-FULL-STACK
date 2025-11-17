@@ -1,0 +1,44 @@
+/* Overflow */
+.overflow-box{
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  overflow: visible;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.scroll{
+  overflow: scroll;
+}
+
+.auto{
+  overflow: auto;
+}
+
+.padding{
+  background-color: crimson;
+  padding: 10px 5px 20px 15px;
+}
+
+.border{
+  border: solid;
+}
+
+.dashed{
+  border: dashed ;
+}
+
+.dotted{
+  border: dotted;
+}
+
+.double{
+  border: double;
+}
+
+.margin{
+  margin: 10px 5px 20px 15px;
+}
