@@ -1,0 +1,20 @@
+:root {
+  --purple: #8c54fb;
+}
+
+
+.caja{
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--purple);
+}
+
+.row{
+  display: flex;
+  gap: 20px;
+}
+

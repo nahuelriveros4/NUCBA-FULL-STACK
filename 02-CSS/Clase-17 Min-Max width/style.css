@@ -1,0 +1,16 @@
+.caja{
+  height: 200px;
+  border-radius: 1rem;
+  background: var(--light-gray);
+}
+
+.minWidth{
+  min-width: 400px;
+  width: 5%;
+}
+
+/* se limita el maximo de una pagina */
+.maxWidth{
+  max-width: 300px;
+  margin: 0 auto;
+}
