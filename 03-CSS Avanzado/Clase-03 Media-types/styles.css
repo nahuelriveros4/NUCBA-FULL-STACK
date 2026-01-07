@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #131415;
+}
+
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.elemento{
+  width: 200px;
+  height: 200px;
+  background: crimson;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:990px){
+  .elemento{
+    background-color: purple; 
+  }
+}
+
+/* Medidas  */
+
+/* 
+-320px - 480px: mobile celulares
+-481px - 768px: tablets
+-769px- - 1024px : pantallas pequeñas, notebook
+-1024px - 1200px: escritorio pantallas grandes
+-1024 en adelantes pantallas tv
+*/

@@ -1,0 +1,41 @@
+@media (max-width: 775px){
+  .hero{
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+  }
+  .hero-text{
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-text h1{
+    font-size: 35px;
+  }
+
+  .hero-text p{
+    font-size: 14px;
+  }
+
+  .imgCard{
+    width: 250px;
+    height: 250px;
+  }
+
+  .card-info span {
+    font-size: 16px;
+  }
+
+  .mentor-info span{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 475px){
+  .hero-text{
+    width: 75%;
+  }
+  .hero-text h1{
+    font-size: 25px;
+  }
+}
