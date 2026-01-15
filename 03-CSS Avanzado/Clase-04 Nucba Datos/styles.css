@@ -180,3 +180,280 @@ a {
   align-items: center;
   gap: 20px;
 }
+
+/* Section 3 - ABOUT */
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 3rem 0;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-text h2{
+  font-weight: var(--light);
+  font-size: 2.5rem;
+}
+
+.about-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--first-text);
+  max-width: 330px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.about-card:first-child{
+  gap: 20px;
+}
+
+.about-card:last-child{
+  padding: 3rem 2rem 0.8rem;
+}
+
+/* Section 4 - TESTIMONIALS */
+.testimonios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 3rem 0;
+}
+
+.testimonios h2{
+  font-weight: var(--medium);
+  font-size: 2rem;
+}
+
+.testimonials-cards-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testimonial-card{
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Section 5 - CTA */
+.cta{
+  padding: 4rem 0;
+  background: var(--secondary-bg);
+}
+
+.cta-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.cta-title h2{
+  font-size: 2rem;
+  font-weight: var(--light);
+}
+
+.cta-card-container img{
+  display: none;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  gap: 20px;
+  padding: 3rem 0;
+  margin: 0 auto;
+}
+
+.redes-nav{
+  display: flex;
+  gap: 20px;
+}
+
+/* Media */
+@media (min-width: 1000px) {
+  /* Header */
+  .btn-menu {
+    display: none;
+  }
+
+  .menu {
+    transform: translateX(0);
+    flex-direction: row;
+    order: 0;
+    width: fit-content;
+    position: static;
+  }
+
+  .menu li {
+    border: none;
+  }
+
+  .menu li a {
+    transition: color 0.3s ease;
+  }
+
+  .menu li a:hover {
+    color: var(--primary);
+  }
+
+  .btn-container {
+    gap: 0;
+  }
+
+  .btn-login {
+    transition: all 0.3s ease;
+  }
+
+  .btn-login:hover {
+    background: var(--primary);
+    border: var(--primary);
+  }
+
+  /* Section 1 => Hero */
+  .hero-text {
+    max-width: 700px;
+    gap: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    max-width: 600px;
+  }
+
+  .hero-bg {
+    max-width: 1000px;
+  }
+
+  /* Section 2 => Product */
+  .product {
+    max-width: 1000px;
+  }
+
+  .product-text {
+    max-width: 600px;
+  }
+
+  .product-img-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Section 3 => About */
+  .about-cards-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  /* Section 4 => Testimonios */
+  .testimonials {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .testimonials-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Section 5 => CTA */
+  .cta-card-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background: #343434;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0 1rem;
+  }
+
+  .cta-card-container img {
+    display: block;
+  }
+
+  .cta-title {
+    align-items: flex-start;
+  }
+
+  /* Footer */
+  /* Footer */
+  /* footer {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    gap: 20px;
+    padding: 3rem 0;
+    margin: 0 auto;
+  }
+  
+  .redes-nav {
+    display: flex;
+    gap: 20px;
+  } */
+  footer {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .footer-nav-container h3 {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--white);
+  }
+
+  .footer-nav {
+    padding: 10px 0;
+  }
+}
